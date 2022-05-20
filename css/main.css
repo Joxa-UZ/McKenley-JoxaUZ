@@ -1,0 +1,236 @@
+/* font-family: 'DM Sans', sans-serif; */
+/* font-family: 'DM Serif Text', serif; */
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F2F6F7;
+}
+
+.header-start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    list-style: none;
+    width: 406px;
+}
+
+.header-menu-item {
+    padding: 20px;
+    font-weight: 400;
+    font-size: 19px;
+
+}
+
+.header-menu-link {
+    text-decoration: none;
+    color: #00486D;
+}
+
+.header-left {
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-tel {
+    font-weight: 400;
+    font-size: 17px;
+    color: #00486D;
+}
+
+.header-left-link {
+    background-color: #00486D;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 19px;
+    padding: 10px;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.header-left-link:hover {
+    background-color: #4AA7C7;
+    width: 200px;
+}
+
+/* Intro start */
+.intro-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E4ECF0;
+}
+
+.intro-text {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.intro-text-big {
+    font-family: 'DM Serif Text', serif;
+    font-weight: 400;
+    font-size: 55px;
+    color: #00486D;
+    margin-bottom: 10px;
+    /* width: 500px; */
+}
+
+.intro-text-little {
+    font-weight: 400;
+    font-size: 24px;
+    color: #00486D;
+    margin-bottom: 50px;
+}
+
+.intro-link {
+    background-color: #00486D;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.intro-link:hover {
+    background-color: #fff;
+    color: #00486D;
+    border: 2px solid #00486D;
+}
+
+.directions-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-two {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.directions {
+    font-family: 'DM Serif Text', serif;
+    font-weight: 400;
+    font-size: 44px;
+    color: #00486D;
+    margin-left: 80px;
+}
+
+.directions-small {
+    font-weight: 400;
+    font-size: 24px;
+    width: 600px;
+    color: #00486D;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.items-logo-main {
+    font-weight: 400;
+    font-size: 22px;
+    color: #00486D;
+}
+
+.items-logo-info {
+    font-weight: 400;
+    width: 350px;
+    font-size: 20px;
+    color: #00486D;
+}
+
+.items-logo-link {
+    font-weight: 400;
+    font-size: 19px;
+    color: #00486D;
+    text-decoration: none;
+
+}
+
+.directions-item {
+    list-style: none;
+}
+
+.about-start {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+}
+
+.about-info {
+    background-color: #00486D;
+    width: 450px;
+    border-radius: 5px;
+}
+
+.about-info-theme {
+    font-family: 'DM Serif Text', serif;
+    width: 350px;
+    font-weight: 400;
+    font-size: 35px;
+    color: #F2F6F7;
+    padding-left: 20px;
+}
+
+.about-info-text {
+    width: 309px;
+    font-weight: 400;
+    font-size: 19px;
+    color: #F2F6F7;
+    padding-left: 20px;
+}
+
+.about-info-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    /* margin-left: 20px;
+    margin-bottom: 80px; */
+    color: #00486D;
+    border-radius: 5px;
+}
+
+.about-link {
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.services-about-main {
+    width: 723px;
+    font-family: 'DM Serif Text';
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    color: #00486D;
+}
+
+.services-about-bottom {
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #00486D;
+}
